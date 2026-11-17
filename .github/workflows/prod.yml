@@ -11,7 +11,7 @@ jobs:
       #   uses: actions/checkout@v7
       - name: clone the code on runner  
         run: git clone https://github.com/ExlearnTechnology/myntra-github-actions.git
-      - name: verify the codes
+      - name: verify the code
         run: |
           cd myntra-github-actions
           ls -l
